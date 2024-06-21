@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Accueil from './components/Accueil/accueil'
+import Accueil from './pages/Accueil/accueil'
 function App() {
   return (
     <>
