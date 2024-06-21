@@ -1,11 +1,11 @@
-import logo from "../../../assets/logo.svg"
+import logo from "../../../assets/tastebite-logo.png"
 import profil from "../../../assets/profile_icon.png"
 import search from "../../../assets/search_icon.png"
 function Header() {
     return <>
-        <header className="md:flex hidden justify-between max-w-screen-2xl py-10 m-auto lg:px-20 md:px-10 px-5">
+        <header className="md:flex hidden justify-between max-w-screen-2xl lg:px-28 py-10 md:px-20 px-10">
             <div className="flex justify-between w-full items-center">
-                <img src={logo} alt="logo" />
+                <img src={logo} alt="logo" className="h-14 filter grayscale brightness-0"/>
                 <nav className="">
                     <ul className="flex flex-row items-center">
                         <li>
@@ -79,9 +79,9 @@ function Header() {
                         <li><a href="" className="font-medium rounded-lg text-sm px-5 py-2.5 text-center text-blue">Buy</a></li>
                     </ul>
                 </nav>
-<div className="flex justify-between max-w-52">
-<img src={search} alt="icon_search" className="w-10 h-10 grayscale"/>
-<img src={profil} alt="icon_profil" className=""/>
+<div className="flex justify-between gap-4">
+<img src={search} alt="icon_search" className="w-8 h-8 filter grayscale brightness-0"/>
+<img src={profil} alt="icon_profil" className="w-8 h-8 filter grayscale brightness-0"/>
 </div>
             </div>
         </header>

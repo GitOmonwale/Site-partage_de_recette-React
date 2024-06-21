@@ -12,7 +12,7 @@ import Join_us from "./section3/join_us"
    <Sweet_Tooth></Sweet_Tooth>
    <Popular_categories></Popular_categories>
    <Join_us></Join_us>
-   <Hand_Picked></Hand_Picked>
+ 
     </>
  }
 
