@@ -7,7 +7,7 @@ import Homepage5 from './pages/Homepage5/Homepage5'
 const App = () => {
   return (
     <div>
-  <Homepage1></Homepage1>
+  <Homepage4></Homepage4>
     </div>
   )
 }
