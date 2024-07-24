@@ -1,18 +1,18 @@
-import React from 'react'
-import Super_Delicious from '../Homepage1/super_delicious'
-import Sweet_Tooth from '../Homepage1/sweet_tooth'
-import Popular_categories from '../Homepage1/popular_categorie'
-import Join_us from '../Homepage1/join_us'
-import Hand_Picked from '../Homepage1/hand-picked'
-import Latest_Recipes from '../Homepage1/latest-recipes'
-import Button from '../../components/button'
-import Footer from '../../components/footer'
-import SearchBar from './SearchBar'
+import React from 'react';
+import Super_Delicious from '../Homepage1/super_delicious';
+import Sweet_Tooth from '../Homepage1/sweet_tooth';
+import Popular_categories from '../Homepage1/popular_categorie';
+import Join_us from '../Homepage1/join_us';
+import Hand_Picked from '../Homepage1/hand-picked';
+import Latest_Recipes from '../Homepage1/latest-recipes';
+import Button from '../../components/button';
+import Footer from '../../components/footer';
+import SearchBar from './SearchBar';
 
 const page5superDelicious = [
-  { id: 1, title: 'Spinach and Cheese Pasta', imageUrl: food1 },
-  { id: 2, title: 'Chicken and Waffles', imageUrl: food2 },
-  { id: 3, title: 'Grilled Salmon', imageUrl: food3 },
+  { id: 1, title: 'Spinach and Cheese Pasta', imageUrl: '/src/assets/food_1.png' },
+  { id: 2, title: 'Chicken and Waffles', imageUrl: '/src/assets/food_2.png' }, 
+  { id: 3, title: 'Grilled Salmon', imageUrl: '/src/assets/food_3.png' }, 
 ];
 
 const page5popularCategories = [
@@ -43,17 +43,18 @@ const page5Latestrecipes = [
   { id: 34, title: 'Healthy Jam Waffle Breakfast', imageUrl: '/src/assets/food_2.png' },
 ];
 
-const buttonName = "Load More"
+const buttonName = "Load More";
+
 const Homepage5 = () => {
   return (
     <>
-     <SearchBar></SearchBar>
+      <SearchBar></SearchBar>
       <div className='max-w-screen-2xl m-auto lg:px-28 md:px-14 px-5'>
-      <div className="mt-10">
-            <h1 className="text-4xl mb-8 pb-4 mt-12 border-b-2 font-playfair font-semibold">Super Delicious</h1>
-            <Super_Delicious superDeliciousData={page5superDelicious} />
-         </div>
-         <Sweet_Tooth></Sweet_Tooth>
+        <div className="mt-10">
+          <h1 className="text-4xl mb-8 pb-4 mt-12 border-b-2 font-playfair font-semibold">Super Delicious</h1>
+          <Super_Delicious superDeliciousData={page5superDelicious} />
+        </div>
+        <Sweet_Tooth></Sweet_Tooth>
         <div className="mt-10">
           <h1 className="text-4xl mb-8 pb-4 mt-12 font-playfair font-semibold">Popular categories</h1>
           <div className="grid grid-cols-3 gap-3 lg:grid-cols-6 md:grid-cols-4">
@@ -81,7 +82,7 @@ const Homepage5 = () => {
       </div>
       <Footer></Footer>
     </>
-  )
-}
+  );
+};
 
-export default Homepage5
+export default Homepage5;

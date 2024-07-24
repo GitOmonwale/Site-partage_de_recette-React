@@ -1,13 +1,13 @@
 import React from 'react'
-import NavBar from '../../components/navbar/navbar'
-import Footer from '../../components/footer'
-import Popular_categories from '../Homepage1/popular_categorie'
+import NavBar from '../../components/navbar/navbar';
+import Footer from '../../components/footer';
+import Popular_categories from '../Homepage1/popular_categorie';
 
 const page4popularCategories = [
-  { id: 9, title: 'Vegan', imageUrl: '/src/assets/food_9.png' },
-  { id: 10, title: 'Vegan', imageUrl: '/src/assets/food_10.png' },
-  { id: 11, title: 'Vegan', imageUrl: '/src/assets/food_11.png' },
-  { id: 12, title: 'Vegan', imageUrl: '/src/assets/food_12.png' },
+    { id: 9, title: 'Vegan', imageUrl: '/src/assets/food_9.png' },
+    { id: 10, title: 'Vegan', imageUrl: '/src/assets/food_10.png' },
+    { id: 11, title: 'Vegan', imageUrl: '/src/assets/food_11.png' },
+    { id: 12, title: 'Vegan', imageUrl: '/src/assets/food_12.png' },
     { id: 19, title: 'Milshake', imageUrl: '/src/assets/food_19.png' },
     { id: 20, title: 'Cake', imageUrl: '/src/assets/food_20.png' },
     { id: 21, title: 'Sandwich', imageUrl: '/src/assets/food_21.png' },

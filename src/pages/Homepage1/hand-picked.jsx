@@ -11,10 +11,10 @@ function Hand_Picked() {
     return <>
                 {
                     handpickedData.map(handpicked => (
-                        <div class=" bg-white border border-gray-200 rounded-lg transform transition-transform duration-300 hover:scale-105">
-                            <img class="rounded-t-lg w-full" src={handpicked.imageUrl} alt="" />
-                            <div class="p-5 flex justify-between items-center">
-                                <h2 class="mb-2 text-xl tracking-tight text-gray-900">{handpicked.title}</h2>
+                        <div key={handpicked.id} className=" bg-white border border-gray-200 rounded-lg transform transition-transform duration-300 hover:scale-105">
+                            <img className="rounded-t-lg w-full" src={handpicked.imageUrl} alt="" />
+                            <div className="p-5 flex justify-between items-center">
+                                <h2 className="mb-2 text-xl tracking-tight text-gray-900">{handpicked.title}</h2>
                                 <button className='border border-1 py-1 px-2'>150 recipes</button>
                             </div>
                         </div>

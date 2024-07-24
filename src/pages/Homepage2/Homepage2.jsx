@@ -97,7 +97,7 @@ const options3 = [
     { label: 'Option 3.3', href: '#' },
 ];
 
-const buttonFollow = {Follow}
+const buttonFollow = "Follow"
 
 const Homepage2 = () => {
     return (

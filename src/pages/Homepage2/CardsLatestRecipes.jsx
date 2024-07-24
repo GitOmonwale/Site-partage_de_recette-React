@@ -8,10 +8,10 @@ const LatestRecipes = ({ LatestRecipesData }) => {
        <>
             {
                 LatestRecipesData.map(recipes => (
-                    <div class="bg-white border-gray-200 rounded-lg grid md:grid-cols-2 grid-cols-1 gap-2">
-                        <img class="rounded-lg w-full h-full transform transition-transform duration-300 hover:scale-105" src={recipes.imageUrl} alt="" />
+                    <div className="bg-white border-gray-200 rounded-lg grid md:grid-cols-2 grid-cols-1 gap-2" key={recipes.id}>
+                        <img className="rounded-lg w-full h-full transform transition-transform duration-300 hover:scale-105" src={recipes.imageUrl} alt="" />
                         <div className='p-7 lg-5 md-3 flex flex-col gap-2'>
-                            <h2 class="mb-5 font-bold tracking-tight">{recipes.description}</h2>
+                            <h2 className="mb-5 font-bold tracking-tight">{recipes.description}</h2>
                             <div className='flex items-center gap-2 max-w-96'>
                                 <img src={profil} alt="profil photo" className='w-7 h-7 filter grayscale brightness-0' />
                                 <span>Tricia Albert</span>
