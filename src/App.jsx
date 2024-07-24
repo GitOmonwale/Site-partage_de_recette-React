@@ -1,9 +1,9 @@
 import { useState } from 'react';
-
+ import logo from "./assets/1.jpg"
 function App() {
   return (
     <>
- wxcvbgghhhhh
+<img src={logo} alt="" />
     </>
   )
 }
