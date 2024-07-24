@@ -7,7 +7,7 @@ const sweetToothData = [
   ];
 function Sweet_Tooth() {
     return <>
-        <section className="lg:px-28 pt-10 md:px-20 px-10">
+        <section>
             <h1 className="text-3xl pb-4">Sweet Tooth</h1>
             <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
                 {

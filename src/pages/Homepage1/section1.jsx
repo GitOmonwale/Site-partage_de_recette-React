@@ -1,6 +1,6 @@
  function Section1() {
   return <>
-    <section className="lg:px-28 md:px-20 px-10">
+    <section>
       <div className="flex md:flex-row flex-col">
         <div className="md:w-2/3 w-full md:h-auto h-52 bg-cheesecake bg-center bg-cover">
         </div>

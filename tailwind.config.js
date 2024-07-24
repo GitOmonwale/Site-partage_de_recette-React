@@ -24,8 +24,11 @@ export default {
       },
       maxWidth:{
         500:"500px",
-      }
-      
+      },
+      fontFamily: {
+        playfair: ['Playfair Display', 'serif'],
+        sans: ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],

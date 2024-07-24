@@ -1,4 +1,4 @@
-import rating from '../../../assets/rating_starts.png'
+import rating from '../../assets/rating_starts.png'
 import React from 'react';
 function Card({ id, title, imageUrl }) {
     return <>
